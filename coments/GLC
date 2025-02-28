@@ -3,5 +3,5 @@ git commit -m "New Version"
 git push
 
 git add .
-git commit -m "Version prefinala"
+git commit -m "VP"
 git push
