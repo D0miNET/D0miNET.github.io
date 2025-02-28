@@ -1,0 +1,16 @@
+overlay
+
+ <div class="overlay-auth">
+        <div class="overlay-auth-a">
+    <a href="login.html" class="btn btn-secondaryn">Log In</a>
+    <a href="signup.html" class="btn btn-primaryn">Sign Up</a>
+        </div>
+    </div>
+
+
+normal
+
+    <div class="navbar-right">
+        <a href="login.html" class="btn btn-secondary">Login</a>
+        <a href="signup.html" class="btn btn-primary">Sign Up</a>
+    </div>
