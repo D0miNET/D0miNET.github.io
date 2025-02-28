@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
 
     $to = "domi.med.more@gmail.com"; // Replace with your email address
-    $subject = "Contact Form Submission";
+    $subject = " Contact Form Submission";
     $body = "Name: $name\nEmail: $email\nMessage: $message";
     $headers = "From: $email";
 
