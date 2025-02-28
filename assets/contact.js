@@ -2,23 +2,20 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     event.preventDefault(); // Prevent the default form submission
 
     // Gather form data
-    const formData = new FormData(this);
+    const formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('message').value
+    };
 
-    // Send the data using fetch
-    fetch('send_email.php', { // Adjust the URL to your server-side script
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
+    // Send the data using EmailJS
+    emailjs.send("service_D0Mshj", "template_nggvnqb", formData)
+        .then(function(response) {
             alert('Your message has been sent successfully!');
-        } else {
+        }, function(error) {
             alert('There was an error sending your message. Please try again.');
-        }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        alert('There was an error sending your message. Please try again.');
-    });
+            console.error('Error:', error);
+        });
+
 });
+
