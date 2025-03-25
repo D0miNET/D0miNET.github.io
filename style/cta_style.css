@@ -1,0 +1,55 @@
+@import url(root_config.css);
+/*##################################################################*/
+
+.cta {
+    background-color:  var(--color-bg-cs-primary);
+    color: var(--color-text);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: var(--color-bg-secondary);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: var(--color-text-secondary);
+}
+
+.cta-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

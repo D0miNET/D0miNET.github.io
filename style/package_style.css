@@ -1,0 +1,23 @@
+@import url(root_config.css);
+/*##################################################################*/
+
+.package {
+    background-color: var(--color-bg-secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.package h3 {
+    margin-bottom: 1rem;
+}
+
+.package ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.package ul li {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,45 @@
+@import url(root_config.css);
+/*##################################################################*/
+
+
+.hero {
+    height: calc(100vh - 80px);
+    padding-top: 80px; /* Added padding to prevent overlap with navbar */
+    z-index: 0; /* Ensure hero is below the navbar */
+    margin-top: 80px; /* Remove margin to reduce space between hero and navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("../imgs/m2.jpg") no-repeat center center / cover;
+    position: relative;
+    
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.227);
+}
+
+.hero * {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--color-text);
+}

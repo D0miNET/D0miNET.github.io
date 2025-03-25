@@ -1,6 +1,20 @@
-/* Main Styie */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-@import url(root_config.css);         /*The file that contains the css configuration variables*/
+:root {
+    --color-bg: #13131a;
+    --color-bg-secondary: #1a1a23;
+    --color-primary: #00e1ff;
+    --color-secondary: #0400ff;
+    --color-text: snow;
+    --color-text-secondary: snow ;
+    --color-bg-navbar: rgba(19, 19, 26, 0.8);
+    --font-family: "Poppins", sans-serif;
+    --color-bg-cs-primary: #04070a;
+  }
+
+  /*##################################################################*/
+
+@import url(root_config.css);   /*The file that contains the color variables*/
 @import url(button_style.css);        /*The file that contains the button styles*/
 @import url(service_style.css);       /*The file that contains the service styles*/
 @import url(footer_style.css);        /*The file that contains the footer styles*/

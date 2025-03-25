@@ -1,0 +1,17 @@
+@import url(root_config.css);
+/*##################################################################*/
+
+.section {
+    padding: 2rem 0;
+    background-color: var(--color-bg);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    color: var(--color-primary);
+}

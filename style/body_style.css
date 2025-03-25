@@ -1,0 +1,10 @@
+@import url(root_config.css);
+/*##################################################################*/
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    overflow-x: hidden;
+}
